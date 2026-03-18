@@ -110,13 +110,13 @@ const juegosDatabase = {
     'dvance-wars-2': {
         nombre: 'Advance Wars 2: Black Hole Rising',
         consola: 'Game Boy Advance',
-        descripcion: 'Estrategia de vuelta por vuelta. Comanda tu ejército en batallas tácticas fascinantes.',
+        descripcion: 'Comanda ejércitos en batallas estratégicas por turnos\n\nToma el control de poderosos comandantes y sus unidades en este juego de estrategia por turnos. Planifica tus movimientos, ataca posiciones enemigas y conquista territorios en campañas épicas contra la misteriosa Black Hole.\n\n★ Estrategia por turnos clásica\n★ Múltiples unidades y comandantes únicos\n★ Campañas desafiantes con historia\n★ Modo multijugador competitivo\n★ Gráficos GBA coloridos y detallados\n★ Aventura estratégica de 20+ horas',
         enlace: 'https://www.mediafire.com/file/mwdfnbox98exm9u/Advance_Wars_2_-_Black_Hole_Rising.zip/file',
         video: 'imagenes/GBA.png',
         imagen: 'imagenes/juegos/gba/advance-wars-2---button-1559952588716.jpg'
     },
     'Fire emblem protagonistas': {
-        nombre: 'Fire Emblem',        consola: 'Game Boy Advance',        descripcion: 'Estrategia tácticas épicas con personajes memorables. Toma decisiones que definirán el destino de tu reino.',
+        nombre: 'Fire Emblem',        consola: 'Game Boy Advance',        descripcion: 'Tácticas épicas donde cada decisión cuenta\n\nLidera a un ejército de caballeros y magos en batallas estratégicas por turnos. Forma alianzas, desarrolla personajes y enfrenta decisiones morales que determinarán el destino de tu reino en esta saga legendaria.\n\n★ Sistema de batalla por turnos estratégico\n★ Personajes con historias profundas\n★ Sistema de clases y crecimiento\n★ Decisiones permanentes que afectan la historia\n★ Música épica y memorable\n★ Una de las sagas RPG más respetadas',
         enlace: 'https://www.mediafire.com/file/mjl6kjni5jcghs9/Fire_Emblem.zip/file',
         video: 'imagenes/GBA.png',
         imagen: 'imagenes/juegos/gba/Fire emblem protagonistas.jpg'
@@ -164,7 +164,7 @@ const juegosDatabase = {
     'yoshi island': {
         nombre: 'Super Mario Advance 3: Yoshi\'s Island',
         consola: 'Game Boy Advance',
-        descripcion: 'Ayuda a Yoshi a proteger al pequeño Luigi. Mecánicas innovadoras en cada nivel.',
+        descripcion: 'La isla mágica de Yoshi en tu bolsillo\n\nProtege al pequeño Mario mientras Yoshi lo lleva en su espalda. Una aventura única con mecánicas innovadoras, huevos mágicos y un estilo artístico encantador en esta versión portátil del clásico.\n\n★ Mecánica de carga de Mario única\n★ Huevos con poderes especiales\n★ Estilo artístico lápiz innovador\n★ Niveles creativos y desafiantes\n★ Música mágica y pegajosa\n★ Una experiencia nostálgica inolvidable',
         enlace: 'https://www.mediafire.com/file/eu0ineezx3b1zt1/Super_Mario_Advance_3_-_Yoshi%2527s_Island.zip/file',
         video: 'imagenes/GBA.png',
         imagen: 'imagenes/juegos/gba/maxresdefault (1).jpg'
