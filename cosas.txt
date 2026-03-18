@@ -1,0 +1,148 @@
+1.Cambiar enlaces de pagina principal o borrarlos
+    2.Arregla boton inicio de sesion.
+    3.Cambiar el fondo de las consolas.
+4.Mejorar index.html
+5.Ampliar a futuro
+6.Comprobar que funcine completamente.
+    7.Añadir juegos con fotos y enlaces.
+    8.Minimo 12 juegos en cada uno:
+    9.Arreglar imagen enlace
+
+Juegos de Nintendo 64
+        1.Super mario 64
+        2.Doom 64
+        3.Banjo kazui
+        4.Donkey Kong 64
+        5.Mario kart 64
+        6.The Legend of Zelda: Ocarina of Time 
+        7.Zelda: Majora's Mask
+        8.Pokémon Stadium 2 
+        9.Starfox 64
+        10.Tony Hawk's Pro Skater 3
+        11.F-Zero X  
+        12.007
+
+Juegos de GBA
+        1.Metroid Fusion 
+        2.The Legend of Zelda: A Link to the Past  
+        3.Pokémon Esmeralda 
+        4.The Legend of Zelda: Four Swords
+        5.Fire Emblem
+        6.Wario Land 4
+        7.Mario & Luigi: Superstar Saga
+        8.Advance Wars 2
+        9.Sonic Advance 3
+        10.Super Mario World
+        11.Wario Ware: Minigame Mania
+        12.Yoshi Island
+
+Juegos de PSP
+1.Metal Gear Solid Peace Walker
+2.Kingdom Hearts: Birth by Sleep
+3.God of War: Ghost of Sparta
+4.God of War: Chains of Olympus
+5.Silent Hill Origins
+    6.Dragon ball tenkaichi tag team
+7.LittleBigPlanet 
+8.Grand Theft Auto: Liberty City Stories 
+9.Tomb Raider Anniversary
+10.Tekken 6
+11.Gran Turismo PSP
+12.Dragon Ball Z: Shin Budokai
+
+Juegos de DS
+        1.New Super Mario Bros
+        2.Nintendogs
+        3.Mario Kart DS
+        4.Castlevania: Dawn of Sorrow
+        5.Final Fantasy IV
+        6.Pokemon Negro
+        7.Pokemon Blanco 2
+        8.Animal Crossing: Wild World
+        9.Kirby: El Pincel del Poder
+        10.The Legend of Zelda: Spirit Tracks
+        11.Metroid Prime: Hunters
+        12.Castlevania: Dawn of Sorrow
+
+Juegos de NES
+        1.Pac-Man
+        2.Super Mario Bros.
+        3.Excitebike
+        4.Kirby’s Adventure
+        5.Donkey Kong
+        6.Final Fantasy
+        7.Metroid
+        8.Mega Man
+        9.Tetris
+        10.Castlevania
+        11.Super Mario Bros: The Lost Levels
+        12.The Legend of Zelda
+
+Juegos de PS1
+    1.Final Fantasy VII
+    2.Metal Gear Solid
+    3.Resident Evil
+    4.Crash Bandicoot
+    5.Tomb Raider
+    6.Spyro the Dragon
+    7.Gran Turismo
+    8.Tony Hawk’s Pro Skater
+    9.Harvest Moon: Back to Nature
+    10.Tekken 3
+    11.Parappa the Rapper
+    12.Crash Team Racing
+
+Juegos de PS2
+    1.Dragon Ball Z: Budokai 3
+    2.Rygar: The Legendary Adventure
+    3.Tekken 5
+    4.Shadow of The Colossus
+    5.God of War
+    6.Metal Gear Solid 3: Snake Eater
+    7.Need for Speed: Underground
+    8.Grand Theft Auto: San Andreas
+    9.Guitar Hero
+    10.Resident Evil 4 
+    11.Kingdom Hearts
+    12.Monster Hunter 
+
+Juegos de Sega Genesis
+    1.Sonic the Hedgehog
+    2.Streets of Rage 2
+    3. Vectorman
+    4.Comix Zone
+    5.Mortal Kombat II
+        6.Dragon Ball Z: Buyuu Retsuden
+    7.Earthworm Jim
+    8.Golden Axe
+    9.Street Fighter II
+    10.Sonic and Knuckles
+        11.X-Men 2: Clone Wars
+    12.Aladdin
+
+Juegos de SNES
+        1.The Legend of Zelda: A Link to the Past
+        2.Donkey Kong Country
+        3.EarthBound
+        4.Mega Man X
+        5.Super Mario World
+        6.Street Fighter II: The World Warrior
+        7.Star Fox
+        8.Super Mario RPG: Legend of the Seven Stars
+        9.Punch-Out
+        10.Yoshi’s Island
+        11.Contra III
+        12.Chrono Trigger
+
+
+cosas
+    Gameplay, Requisitos minimos, Pequeño resumen, edad
+    Mejor intro con datos nuestros, de la empresa y Juegos
+    Cambiar fondos
+    Video de los juegos interactuando entre ellos
+    Apartado de correo para enviar correos(no funcional)
+    Filtros o categorias de juegos
+
+En clase
+    Tutoriales loquendo
+    Descargar juegos

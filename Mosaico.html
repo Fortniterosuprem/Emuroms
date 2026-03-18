@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juegos - Mosaico</title>
+    <link rel="icon" href="imagenes/image.png" type="image/x-icon">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <!-- Modal para ampliar imagen -->
+    <div id="modalJuego" class="modal-juego">
+        <div class="modal-contenido">
+            <span class="cerrar-modal">&times;</span>
+            <div class="modal-grid">
+                <div class="modal-izquierda">
+                    <video id="videoModal" autoplay muted loop playsinline preload="metadata">
+                        <source src="" type="video/mp4">
+                        Tu navegador no soporta el elemento de video.
+                    </video>
+                    <div class="galeria-imagenes" id="galeriaImagenes">
+                        <!-- Las imágenes se cargarán aquí -->
+                    </div>
+                </div>
+                <div class="modal-derecha">
+                    <h2 id="nombreJuego"></h2>
+                    <p id="consolaJuego" style="color: #FF4444; font-weight: bold; margin: 10px 0;"></p>
+                    <p id="descripcionJuego"></p>
+                    <a id="enlaceDescarga" href="#" target="_blank" class="btn-descargar">Descargar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <header>
+        <div class="navegacion">
+            <a class="inicio" href="index.html"><img src="imagenes/image.png" alt="icono" width="27px"></a>
+            <a href="index.html">Inicio</a>
+            <a href="inicio.html">Consolas</a>
+            <a href="Mosaico.html">Juegos</a>
+            <a href="tutoriales.html">Tutoriales</a>
+        </div>
+        <div class="formulario">
+            <a href="Acerca_De.html">Acerca de</a>
+        </div>
+    </header>  
+    <main class="fondo-medio">
+        <div class="mosaico-container">
+            <h1>Galería Completa de Juegos</h1>
+            <div class="mosaico-grid image-grid">
+                <!-- Nintendo 64 -->
+                <div class="mosaico-item"><img src="imagenes/juegos/nintendo64/BanjoKazooie.webp" alt="BanjoKazooie"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/nintendo64/doom_64_dc.jpg" alt="doom_64"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/nintendo64/f-zero-x_uyh9.jpg" alt="f-zero-x"></div>
+                <div class="mosaico-item"><img src="imagenes/mosaico/mario-kard-64.webp" alt="MarioKart64"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/nintendo64/MV5BNGVjMjgxZWEtYTUyNi00MTE3LWFjYWMtMjM3ZGQzMDQ3NGI3XkEyXkFqcGc@._V1_.jpg" alt="TheLegendOfZelda"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/nintendo64/MV5BOTFiYzQ3YzMtZjg3OS00MDljLTlhNDQtNWE1ZjVmMzYwYmRjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="tony_skate"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/nintendo64/MV5BZWIwYWJmNzQtNWZiNC00Njc3LWI2YTUtYTJiMDFlYTc2YWRhXkEyXkFqcGc@._V1_.jpg" alt="007"></div>
+                <div class="mosaico-item"><img src="imagenes/mosaico/donkey-kong-64.webp" alt="DonkeyKong64"></div>
+                <div class="mosaico-item"><img src="imagenes/mosaico/pokemon-stadium.webp" alt="PokemonStadium2"></div>
+                <div class="mosaico-item"><img src="imagenes/mosaico/mario-64.jpg" alt="SuperMario64"></div>
+                <div class="mosaico-item"><img src="imagenes/mosaico/zelda-majoras-mask.jpg" alt="ZeldaMajorasMask"></div>
+                <div class="mosaico-item"><img src="imagenes/mosaico/starfox-64.jpg" alt="Star-Fox-64"></div>
+                
+                <!-- Game Boy Advance -->
+                <div class="mosaico-item"><img src="imagenes/mosaico/sonic.jpg" alt="sonic"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/gba/advance-wars-2---button-1559952588716.jpg" alt="dvance-wars-2"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/gba/Fire emblem protagonistas.jpg" alt="Fire emblem protagonistas"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/gba/H2x1_GBA_MetroidFusion_image1280w.jpg" alt="MetroidFusion"></div>
+                <div class="mosaico-item"><img src="imagenes/mosaico/Pokemon_Esmeralda.jpg" alt="PokemonEmerald"></div>
+                <div class="mosaico-item"><img src="imagenes/mosaico/super-mario-world.webp" alt="SuperMarioWorld"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/gba/legendofzelda-linktothepast-1639586882982.jpg" alt="legendofzelda"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/gba/MarioAndLuigiSuperstarSagaGBACoverArtUS.jpg" alt="MarioAndLuigiSuperstar"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/gba/maxresdefault (1).jpg" alt="yoshi island"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/gba/maxresdefault.jpg" alt="TheLegendOfZeldaFourSwords"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/gba/SI_WiiUVC_Warioland4_image1600w.jpg" alt="Warioland"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/gba/WarioWare_Gold_Cover.jpg" alt="WarioWare"></div>
+                
+                <!-- Nintendo DS -->
+                <div class="mosaico-item"><img src="imagenes/juegos/ds/New_super_mario_bros.webp" alt="New_super_mario_bros"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/ds/animal crossing.jpg" alt="animal crossing."></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/ds/castlevania.jpg" alt="castlevania"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/ds/Final_Fantasy_IV.jpg" alt="Fantasy_IV"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/ds/mario-kart-ds-nintendo-ds-screenshot-art-1.png" alt="mario-kart"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/ds/Metroid_Prime_Hunters_all_characters.jpg" alt="Metroid_Prime_Hunters_all_characters"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/ds/nintendogs.jpg" alt="nintendogs"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/ds/plantilla_portadas_kirby.jpeg" alt="kirby"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/ds/PokemonBlack_esES.jpg" alt="PokemonBlack"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/ds/PokemonBlackAndWhite2_White_esES_image1600w.jpg" alt="PokemonBlackAndWhite2_White"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/ds/SI_NDS_SuperMario64DS_image1600w.jpg" alt="SuperMario64DS"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/ds/SI_NDS_TheLegendOfZeldaSpiritTracks_image1600w.jpg" alt="TheLegendOfZelda"></div>
+                
+                <!-- NES -->
+                <div class="mosaico-item"><img src="imagenes/juegos/nex/castlevania.jpg" alt="castlevania"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/nex/DonkeyKong_image1600w.jpg" alt="DonkeyKong"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/nex/Excitebike_image1600w.jpg" alt="Excitebike"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/nex/Final_Fantasy.webp" alt="Final Fantasy"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/nex/KirbysAdventure.jpg" alt="Kirby's Adventure"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/nex/Mega_man.jpg" alt="Mega Man"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/nex/Metroid_image1600w.jpg" alt="Metroid"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/nex/pacman.webp" alt="Pacman"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/nex/Super Mario Bros The Lost Levels.jpg" alt="Super Mario Bros The Lost Levels"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/nex/SuperMarioBros.jpg" alt="Super Mario Bros"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/nex/tetris.png" alt="Tetris"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/nex/the legenad of zelda.jpg" alt="The Legend of Zelda"></div>
+                
+                <!-- PlayStation 1 -->
+                <div class="mosaico-item"><img src="imagenes/juegos/ps1/Crash Bandicoot.webp" alt="CrashBandicoot"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/ps1/Crash Team Racing.jpg" alt="CrashTeamRacing"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/ps1/Final Fantasy VII.jpg" alt="FinalFantasyVII"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/ps1/gran turismo.jpg" alt="GranTurismo"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/ps1/Harvest Moon Back to Nature.jpg" alt="HarvestMoon"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/ps1/Metal Gear Solid.jpg" alt="MetalGearSolidPS1"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/ps1/Parappa the Rapper.jpg" alt="ParappaTheRapper"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/ps1/Resident Evil 1.webp" alt="ResidentEvilPS1"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/ps1/spyro the dragon.gif" alt="SpyrotheDragon"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/ps1/tekken3.jpg" alt="Tekken3"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/ps1/Tomb_Raider-570681926-large.jpg" alt="TombRaiderPS1"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/ps1/tonyHawk.jpg" alt="TonyHawksPS1"></div>
+                
+                <!-- PlayStation 2 -->
+                <div class="mosaico-item"><img src="imagenes/juegos/ps2/Dragon Ball Z Budokai 3.jpg" alt="DragonBallZBudokai3"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/ps2/EGS_GrandTheftAutoSanAndreasTheDefinitiveEdition_RockstarGames_S1_2560x1440-3daa3396c39d5310e071d9093689fdde.jpg" alt="GTASanAndreas"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/ps2/god-of-war.jpg" alt="GodOfWarsPS2"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/ps2/Guitar Hero.webp" alt="GuitarHero"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/ps2/kingdom-hearts-iii-re-mind-dlc-pc-juego-steam-cover.jpg" alt="KingdomHeartsPS2"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/ps2/Metal Gear Solid 3 Snake Eater.png" alt="MGS3SnakeEater"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/ps2/Need_for_Speed_Underground_cover.jpg" alt="NFSUnderground"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/ps2/Pixel-Sundays-Monster-Hunter-2.webp" alt="MonsterHunter2"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/ps2/Resident Evil 4.jpg" alt="ResidentEvil4"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/ps2/RygarTheLegendaryAdventurePS2.jpg" alt="Rygar"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/ps2/Shadow of The Colossus.jpg" alt="ShadowOfTheColossus"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/ps2/tekken5.jpg" alt="Tekken5"></div>
+                
+                <!-- PlayStation Portable -->
+                <div class="mosaico-item"><img src="imagenes/juegos/psp/56_mgspw_gamemain.jpg" alt="MGSPeaceWalker"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/psp/dragon ball z shin budokai tenkaichi 2.jpg" alt="DragonBallZShinBudokai"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/psp/dragon ball z shin budokai tenkaichi 2.png" alt="DragonBallZTenkaichi2"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/psp/god of war chains of olympus.jpg" alt="GodOfWarChainsOfOlympus"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/psp/god of war ghost of sparta .png" alt="GodOfWarGhostOfSparta"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/psp/gran turismo.webp" alt="GranTurismoP SP"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/psp/Grand_Theft_Auto_Liberty_City_Stories.webp" alt="GTALibertyCityStories"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/psp/little bing planet.jpg" alt="LittleBigPlanetPSP"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/psp/Portadas-KH-Birth-By-Sleep.jpg" alt="KingdomHeartsBirthBySleep"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/psp/silent hill origins .jpg" alt="SilentHillOrigins"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/psp/teken6.jpg" alt="Tekken6PSP"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/psp/tomb-raider-anniversary-pc-juego-steam-cover.jpg" alt="TombRaiderAnniversary"></div>
+                
+                <!-- Sega Genesis -->
+                <div class="mosaico-item"><img src="imagenes/juegos/sega genesis/Aladdin.jpg" alt="AladdinGenesis"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/sega genesis/Comix Zone.webp" alt="ComixZone"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/sega genesis/Dragon Ball Z Buyuu Retsuden.png" alt="DragonBallZGenesis"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/sega genesis/Earthworm Jim.jpg" alt="EarthwormJim"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/sega genesis/Golden Axe.jpg" alt="GoldenAxe"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/sega genesis/Mortal Kombat II.jpg" alt="MortalKombatII"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/sega genesis/sonic and knuckles.jpg" alt="SonicAndKnuckles"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/sega genesis/Sonic the Hedgehog.webp" alt="SonicTheHedgehog"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/sega genesis/Street Fighter II.jpg" alt="StreetFighterIIGenesis"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/sega genesis/Streets of Rage 2.jpg" alt="StreetsOfRage2"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/sega genesis/vectorman.jpg" alt="Vectorman"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/sega genesis/X-Men 2 Clone Wars.jpg" alt="XMen2CloneWars"></div>
+                
+                <!-- SNES -->
+                <div class="mosaico-item"><img src="imagenes/juegos/snex/Chrono Trigger.jpg" alt="ChronoTrigger"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/snex/Contra III.jpg" alt="ContraIII"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/snex/Donkey Kong Country.jpg" alt="DonkeyKongCountry"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/snex/EarthBound.jpg" alt="EarthBoundSNES"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/snex/Mega Man X.jpg" alt="MegaManXSNES"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/snex/Punch-Out.jpg" alt="PunchOutSNES"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/snex/Star Fox.jpg" alt="StarFoxSNES"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/snex/Street Fighter II The World Warrior.jpg" alt="StreetFighterIISNES"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/snex/super mario all-stars + super mario world.webp" alt="MarioAllStars"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/snex/Super Mario RPG Legend of the Seven Stars.jpg" alt="SuperMarioRPG"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/snex/The Legend of Zelda A Link to the Past.jpg" alt="ZeldaSNES"></div>
+                <div class="mosaico-item"><img src="imagenes/juegos/snex/Yoshi's Island.jpg" alt="YoshisIslandSNES"></div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p> &copy;Emuroms</p>
+    </footer>
+    <script src="script-modal.js"></script>
+</body>
+</html>

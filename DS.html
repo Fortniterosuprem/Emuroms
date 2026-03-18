@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juegos - Inicio</title>
+    <link rel="icon" href="imagenes/image.png" type="image/x-icon">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <!-- Modal para ampliar imagen -->
+    <div id="modalJuego" class="modal-juego">
+        <div class="modal-contenido">
+            <span class="cerrar-modal">&times;</span>
+            <div class="modal-grid">
+                <div class="modal-izquierda">
+                    <video id="videoModal" autoplay muted loop playsinline preload="metadata">
+                        <source src="" type="video/mp4">
+                        Tu navegador no soporta el elemento de video.
+                    </video>
+                    <div class="galeria-imagenes" id="galeriaImagenes">
+                        <!-- Las imágenes se cargarán aquí -->
+                    </div>
+                </div>
+                <div class="modal-derecha">
+                    <h2 id="nombreJuego"></h2>
+                    <p id="descripcionJuego"></p>
+                    <a id="enlaceDescarga" href="#" target="_blank" class="btn-descargar">Descargar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <header>
+        <div class="navegacion">
+            <a class="inicio" href="index.html"><img src="imagenes/image.png" alt="icono" width="27px"></a>
+            <a href="index.html">Inicio</a>
+            <a href="inicio.html">Consolas</a>
+            <a href="Mosaico.html">Juegos</a>
+            <a href="tutoriales.html">Tutoriales</a>
+        </div>
+        <div class="formulario">
+            <a href="Acerca_De.html">Acerca de</a>
+        </div>
+    </header> 
+    <main class="fondo-medio">
+        <div class="image-grid">
+            <a href="https://www.mediafire.com/file/8gugrd5s8bj82lc/no%2524gba-win.zip/file"><img src="imagenes/DS.png" alt="Nintendo DS" style="width: 474px; height: 276px;"></a>
+            <a href="https://www.mediafire.com/file/9bkvg2p1hiendnj/New_Super_Mario_Bros.rar/file" target="_blank"><img src="imagenes/juegos/ds/New_super_mario_bros.webp" alt="New_super_mario_bros" style="width: 474px; height: 276px;"></a>
+            <a href="https://www.mediafire.com/file/9manb28gmdhpraw/Animal_Crossing.rar/file" target="_blank"><img src="imagenes/juegos/ds/animal crossing.jpg" alt="animal crossing." style="width: 474px; height: 276px;"></a>
+            <a href="https://www.mediafire.com/file/6t63ipzc4qcsmju/Castlevania_-_Dawn_of_Sorrow.rar/file" target="_blank"><img src="imagenes/juegos/ds/castlevania.jpg" alt="castlevania" style="width: 474px; height: 276px;"></a>
+            <a href="https://www.mediafire.com/file/95ryumbq46xe21w/Final_Fantasy_IV.rar/file" target="_blank"><img src="imagenes/juegos/ds/Final_Fantasy_IV.jpg" alt="Fantasy_IV" style="width: 474px; height: 276px;"></a>
+            <a href="https://www.mediafire.com/file/og4e8bqhiqhb9mo/Mario_Kart_DS.rar/file" target="_blank"><img src="imagenes/juegos/ds/mario-kart-ds-nintendo-ds-screenshot-art-1.png" alt="mario-kart" style="width: 474px; height: 276px;"></a>
+            <a href="https://www.mediafire.com/file/ffwnxhcffa4l9ln/Metroid_Prime_Hunters.rar/file" target="_blank"><img src="imagenes/juegos/ds/Metroid_Prime_Hunters_all_characters.jpg" alt="Metroid_Prime_Hunters_all_characters" style="width: 474px; height: 276px;"></a>
+            <a href="https://www.mediafire.com/file/klu3r087xn061ac/Nintendogs_-_Best_Friends.rar/file" target="_blank"><img src="imagenes/juegos/ds/nintendogs.jpg" alt="nintendogs" style="width: 474px; height: 276px;"></a>
+            <a href="https://www.mediafire.com/file/feqvz8oysq69cq3/Kirby_-_Power_Paintbrush.rar/file" target="_blank"><img src="imagenes/juegos/ds/plantilla_portadas_kirby.jpeg" alt="kirby" style="width: 474px; height: 276px;"></a>
+            <a href="https://www.mediafire.com/file/w9ldw1u9dsl2wdp/Pokemon_-_Black_Version.rar/file" target="_blank"><img src="imagenes/juegos/ds/PokemonBlack_esES.jpg" alt="PokemonBlack" style="width: 474px; height: 276px;"></a>
+            <a href="https://www.mediafire.com/file/vxj5r8um2ucz0mx/Pokemon_White_Version_2.rar/file" target="_blank"><img src="imagenes/juegos/ds/PokemonBlackAndWhite2_White_esES_image1600w.jpg" alt="PokemonBlackAndWhite2_White" style="width: 474px; height: 276px;"></a>
+            <a href="https://www.mediafire.com/file/r9c3lg8tf003gja/Super_Mario_64_DS.rar/file" target="_blank"><img src="imagenes/juegos/ds/SI_NDS_SuperMario64DS_image1600w.jpg" alt="SuperMario64DS" style="width: 474px; height: 276px;"></a>
+            <a href="https://www.mediafire.com/file/xjy5w4liqb4239g/Legend_of_Zelda_-_Spirit_Tracks.rar/file" target="_blank"><img src="imagenes/juegos/ds/SI_NDS_TheLegendOfZeldaSpiritTracks_image1600w.jpg" alt="TheLegendOfZelda" style="width: 474px; height: 276px;"></a>
+        </div>
+    </main>
+    <footer>
+        <p> &copy;Emuroms</p>
+    </footer>
+
+    <script src="script-modal.js"></script>
+</body>
+</html>

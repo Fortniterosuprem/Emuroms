@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juegos - Inicio</title>
+    <link rel="icon" href="imagenes/image.png" type="image/x-icon">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <!-- Modal para ampliar imagen -->
+    <div id="modalJuego" class="modal-juego">
+        <div class="modal-contenido">
+            <span class="cerrar-modal">&times;</span>
+            <div class="modal-grid">
+                <div class="modal-izquierda">
+                    <video id="videoModal" autoplay muted loop playsinline preload="metadata">
+                        <source src="" type="video/mp4">
+                        Tu navegador no soporta el elemento de video.
+                    </video>
+                    <div class="galeria-imagenes" id="galeriaImagenes">
+                        <!-- Las imágenes se cargarán aquí -->
+                    </div>
+                </div>
+                <div class="modal-derecha">
+                    <h2 id="nombreJuego"></h2>
+                    <p id="descripcionJuego"></p>
+                    <a id="enlaceDescarga" href="#" target="_blank" class="btn-descargar">Descargar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <header>
+        <div class="navegacion">
+            <a class="inicio" href="index.html"><img src="imagenes/image.png" alt="icono" width="27px"></a>
+            <a href="index.html">Inicio</a>
+            <a href="inicio.html">Consolas</a>
+            <a href="Mosaico.html">Juegos</a>
+            <a href="tutoriales.html">Tutoriales</a>
+        </div>
+        <div class="formulario">
+            <li><a href="Acerca_De.html">Acerca de</a>
+        </div>
+    </header> 
+    <main class="fondo-medio">
+        <div class="image-grid">
+            <a href="https://www.mediafire.com/file/zfltrqdfnu1jvyd/GBA.7z/file"><img src="imagenes/GBA.png" alt="Emulador" style="width: 474px;height: 276px;"></a>
+
+            <a href="https://www.mediafire.com/file/eu0ineezx3b1zt1/Super_Mario_Advance_3_-_Yoshi%2527s_Island.zip/file" target="_blank"><img src="imagenes/juegos/gba/64624--sonic-advance-3.png" alt="sonic" style="width: 474px; height: 276px;"></a>
+            <a href="https://www.mediafire.com/file/mwdfnbox98exm9u/Advance_Wars_2_-_Black_Hole_Rising.zip/file" target="_blank"><img src="imagenes/juegos/gba/advance-wars-2---button-1559952588716.jpg" alt="dvance-wars-2" style="width: 474px; height: 276px;"></a>
+            <a href="https://www.mediafire.com/file/mjl6kjni5jcghs9/Fire_Emblem.zip/file" target="_blank"><img src="imagenes/juegos/gba/Fire emblem protagonistas.jpg" alt="Fire emblem protagonistas" style="width: 474px; height: 276px;"></a>
+            <a href="https://www.mediafire.com/file/cdk11f5p154f56h/Metroid_Fusion.zip/file" target="_blank"><img src="imagenes/juegos/gba/H2x1_GBA_MetroidFusion_image1280w.jpg" alt="MetroidFusion" style="width: 474px; height: 276px;"></a>
+            <a href="https://www.mediafire.com/file/xsyrnprn7uk5v8h/Pokemon_-_Emerald_Version.zip/file" target="_blank"><img src="imagenes/juegos/gba/H2x1_GBA_PokemonEmerald_esES.jpg" alt="PokemonEmerald" style="width: 474px; height: 276px;"></a>
+            <a href="https://www.mediafire.com/file/amzwyizeld9bqgb/Super_Mario_Advance_2_-_Super_Mario_World.zip/file" target="_blank"><img src="imagenes/juegos/gba/H2x1_SNES_SuperMarioWorld.jpg" alt="SuperMarioWorld" style="width: 474px; height: 276px;"></a>
+            <a href="https://www.mediafire.com/file/kfre198zs8q6us8/The_Legend_Of_Zelda_-_A_Link_To_The_Past.zip/file" target="_blank"><img src="imagenes/juegos/gba/legendofzelda-linktothepast-1639586882982.jpg" alt="legendofzelda" style="width: 474px; height: 276px;"></a>
+            <a href="https://www.mediafire.com/file/4ufb2ovg5s80one/Mario_%2526_Luigi_-_Superstar_Saga.zip/file" target="_blank"><img src="imagenes/juegos/gba/MarioAndLuigiSuperstarSagaGBACoverArtUS.jpg" alt="MarioAndLuigiSuperstar" style="width: 474px; height: 276px;"></a>
+            <a href="https://www.mediafire.com/file/eu0ineezx3b1zt1/Super_Mario_Advance_3_-_Yoshi%2527s_Island.zip/file" target="_blank"><img src="imagenes/juegos/gba/maxresdefault (1).jpg" alt="yoshi island" style="width: 474px; height: 276px;"></a>
+            <a href="https://www.mediafire.com/file/2wjrpylp6s7kfez/Legend_of_Zelda%252C_The_-_A_Link_To_The_Past_Four_Swords.zip/file" target="_blank"><img src="imagenes/juegos/gba/maxresdefault.jpg" alt="TheLegendOfZelda" style="width: 474px; height: 276px;"></a>
+            <a href="https://www.mediafire.com/file/ryhm7emkui4u4sh/Wario_Land_4.zip/file" target="_blank"><img src="imagenes/juegos/gba/SI_WiiUVC_Warioland4_image1600w.jpg" alt="Warioland" style="width: 474px; height: 276px;"></a>
+            <a href="https://www.mediafire.com/file/bc8umh99q04am8q/WarioWare_Inc.zip/file" target="_blank"><img src="imagenes/juegos/gba/WarioWare_Gold_Cover.jpg" alt="WarioWare" style="width: 474px; height: 276px;"></a>
+
+        </div>
+    </main>
+    <footer>
+        <p> &copy;Emuroms</p>
+    </footer>
+
+    <script src="script-modal.js"></script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juegos - Inicio</title>
+    <link rel="icon" href="imagenes/image.png" type="image/x-icon">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <!-- Modal para ampliar imagen -->
+    <div id="modalJuego" class="modal-juego">
+        <div class="modal-contenido">
+            <span class="cerrar-modal">&times;</span>
+            <div class="modal-grid">
+                <div class="modal-izquierda">
+                    <video id="videoModal" autoplay muted loop playsinline preload="metadata">
+                        <source src="" type="video/mp4">
+                        Tu navegador no soporta el elemento de video.
+                    </video>
+                    <div class="galeria-imagenes" id="galeriaImagenes">
+                        <!-- Las imágenes se cargarán aquí -->
+                    </div>
+                </div>
+                <div class="modal-derecha">
+                    <h2 id="nombreJuego"></h2>
+                    <p id="descripcionJuego"></p>
+                    <a id="enlaceDescarga" href="#" target="_blank" class="btn-descargar">Descargar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <header>
+        <div class="navegacion">
+            <a class="inicio" href="index.html"><img src="imagenes/image.png" alt="icono" width="27px"></a>
+            <a href="index.html">Inicio</a>
+            <a href="inicio.html">Consolas</a>
+            <a href="Mosaico.html">Juegos</a>
+            <a href="tutoriales.html">Tutoriales</a>
+        </div>
+        <div class="formulario">
+            <a href="Acerca_De.html">Acerca de</a>
+        </div>
+    </header>  
+    <main class="fondo-medio">
+        <div class="image-grid">
+            <a href="https://www.mediafire.com/file/krqd29vgyoxz1at/PS1.zip/file"><img src="imagenes/PS1.jpg" alt="Emulador" style="width: 474px;height: 276px;"></a>
+
+            <a href="" target="_blank"><img src="imagenes/juegos/ps1/Crash Bandicoot.webp" alt="Crash Bandicoot" style="width: 474px; height: 276px;"></a>
+            <a href="" target="_blank"><img src="imagenes/juegos/ps1/Crash Team Racing.jpg" alt="Crash Team Racing" style="width: 474px; height: 276px;"></a>
+            <a href="" target="_blank"><img src="imagenes/juegos/ps1/Final Fantasy VII.jpg" alt="Final Fantasy VII" style="width: 474px; height: 276px;"></a>
+            <a href="" target="_blank"><img src="imagenes/juegos/ps1/gran turismo.jpg" alt="Gran Turismo" style="width: 474px; height: 276px;"></a>
+            <a href="" target="_blank"><img src="imagenes/juegos/ps1/Harvest Moon Back to Nature.jpg" alt="Harvest Moon Back to Nature" style="width: 474px; height: 276px;"></a>
+            <a href="" target="_blank"><img src="imagenes/juegos/ps1/Metal Gear Solid.jpg" alt="Metal Gear Solid" style="width: 474px; height: 276px;"></a>
+            <a href="" target="_blank"><img src="imagenes/juegos/ps1/Parappa the Rapper.jpg" alt="Parappa the Rapper" style="width: 474px; height: 276px;"></a>
+            <a href="" target="_blank"><img src="imagenes/juegos/ps1/Resident Evil 1.webp" alt="Resident Evil 1" style="width: 474px; height: 276px;"></a>
+            <a href="" target="_blank"><img src="imagenes/juegos/ps1/spyro the dragon.gif" alt="Spyro the Dragon" style="width: 474px; height: 276px;"></a>
+            <a href="" target="_blank"><img src="imagenes/juegos/ps1/tekken3.jpg" alt="Tekken 3" style="width: 474px; height: 276px;"></a>
+            <a href="" target="_blank"><img src="imagenes/juegos/ps1/Tomb_Raider-570681926-large.jpg" alt="Tomb Raider" style="width: 474px; height: 276px;"></a>
+            <a href="" target="_blank"><img src="imagenes/juegos/ps1/tonyHawk.jpg" alt="Tony Hawk's Pro Skater" style="width: 474px; height: 276px;"></a>
+        </div>
+    </main>
+    <footer>
+        <p> &copy;Emuroms</p>
+    </footer>
+
+    <script src="script-modal.js"></script>
+</body>
+</html>

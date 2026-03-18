@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juegos - Inicio</title>
+    <link rel="icon" href="imagenes/image.png" type="image/x-icon">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <!-- Modal para ampliar imagen -->
+    <div id="modalJuego" class="modal-juego">
+        <div class="modal-contenido">
+            <span class="cerrar-modal">&times;</span>
+            <div class="modal-grid">
+                <div class="modal-izquierda">
+                    <video id="videoModal" autoplay muted loop playsinline preload="metadata">
+                        <source src="" type="video/mp4">
+                        Tu navegador no soporta el elemento de video.
+                    </video>
+                    <div class="galeria-imagenes" id="galeriaImagenes">
+                        <!-- Las imágenes se cargarán aquí -->
+                    </div>
+                </div>
+                <div class="modal-derecha">
+                    <h2 id="nombreJuego"></h2>
+                    <p id="descripcionJuego"></p>
+                    <a id="enlaceDescarga" href="#" target="_blank" class="btn-descargar">Descargar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <header>
+        <div class="navegacion">
+            <a class="inicio" href="index.html"><img src="imagenes/image.png" alt="icono" width="27px"></a>
+            <a href="index.html">Inicio</a>
+            <a href="inicio.html">Consolas</a>
+            <a href="Mosaico.html">Juegos</a>
+        </div>
+        <div class="formulario">
+            <a href="Acerca_De.html">Acerca de</a>
+        </div>
+    </header> 
+    <main class="fondo-medio">
+        <div class="image-grid">
+            <a href="https://www.mediafire.com/file/bfbq39usemncio8/PS2.7z/file"><img src="imagenes/PS2.png" alt="Emulador" style="width: 474px; height: 276px;"></a>
+
+            <a href="" target="_blank"><img src="imagenes/juegos/ps2/Dragon Ball Z Budokai 3.jpg" alt="Dragon Ball Z Budokai 3" style="width: 474px; height: 276px;"></a>
+            <a href="" target="_blank"><img src="imagenes/juegos/ps2/EGS_GrandTheftAutoSanAndreasTheDefinitiveEdition_RockstarGames_S1_2560x1440-3daa3396c39d5310e071d9093689fdde.jpg" alt="Grand Theft Auto San Andreas" style="width: 474px; height: 276px;"></a>
+            <a href="" target="_blank"><img src="imagenes/juegos/ps2/god-of-war.jpg" alt="God of War" style="width: 474px; height: 276px;"></a>
+            <a href="" target="_blank"><img src="imagenes/juegos/ps2/Guitar Hero.webp" alt="Guitar Hero" style="width: 474px; height: 276px;"></a>
+            <a href="" target="_blank"><img src="imagenes/juegos/ps2/kingdom-hearts-iii-re-mind-dlc-pc-juego-steam-cover.jpg" alt="Kingdom Hearts III Re Mind DLC" style="width: 474px; height: 276px;"></a>
+            <a href="" target="_blank"><img src="imagenes/juegos/ps2/Metal Gear Solid 3 Snake Eater.png" alt="Metal Gear Solid 3 Snake Eater" style="width: 474px; height: 276px;"></a>
+            <a href="" target="_blank"><img src="imagenes/juegos/ps2/Need_for_Speed_Underground_cover.jpg" alt="Need for Speed Underground" style="width: 474px; height: 276px;"></a>
+            <a href="" target="_blank"><img src="imagenes/juegos/ps2/Pixel-Sundays-Monster-Hunter-2.webp" alt="Pixel Sundays Monster Hunter 2" style="width: 474px; height: 276px;"></a>
+            <a href="" target="_blank"><img src="imagenes/juegos/ps2/Resident Evil 4.jpg" alt="Resident Evil 4" style="width: 474px; height: 276px;"></a>
+            <a href="" target="_blank"><img src="imagenes/juegos/ps2/RygarTheLegendaryAdventurePS2.jpg" alt="Rygar The Legendary Adventure PS2" style="width: 474px; height: 276px;"></a>
+            <a href="" target="_blank"><img src="imagenes/juegos/ps2/Shadow of The Colossus.jpg" alt="Shadow of The Colossus" style="width: 474px; height: 276px;"></a>
+            <a href="" target="_blank"><img src="imagenes/juegos/ps2/tekken5.jpg" alt="Tekken 5" style="width: 474px; height: 276px;"></a>
+        </div>
+    </main>
+    <footer>
+        <p> &copy;Emuroms</p>
+    </footer>
+
+    <script src="script-modal.js"></script>
+</body>
+</html>

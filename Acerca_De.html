@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acerca de - Emuroms</title>
+    <link rel="icon" href="imagenes/image.png" type="image/x-icon">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <div class="navegacion">
+            <a class="inicio" href="index.html"><img src="imagenes/image.png" alt="icono" width="27px"></a>
+            <a href="index.html">Inicio</a>
+            <a href="inicio.html">Consolas</a>
+            <a href="Mosaico.html">Juegos</a>
+            <a href="tutoriales.html">Tutoriales</a>
+        </div>
+        <div class="formulario">
+            <a href="Acerca_De.html">Acerca de</a>
+        </div>
+    </header>
+    <main class="fondo-medio">
+        <div>
+            <h1>Acerca de Emuroms</h1>
+            <p>La plataforma definitiva para los apasionados por los videojuegos clásicos. Preservamos la historia para las generaciones presentes y futuras.</p>
+        </div>
+
+        <section class="seccion-profesional">
+            <h2>Nuestra Historia</h2>
+            <p>Emuroms nació de dos amigos que quisieron preservar el legado de los videojuegos retro. Reconocemos que estos títulos clásicos no son solo entretenimiento, sino parte fundamental de la historia cultural digital. Desde sus inicios, Emuroms ha estado comprometida con proporcionar acceso seguro, legal y de calidad a los juegos que definieron generaciones.</p>
+        </section>
+        
+        <section class="seccion-profesional">
+            <h2>Nuestra Misión</h2>
+            <p>En Emuroms nos dedicamos a tres pilares fundamentales:</p>
+            <ul>
+                <li><strong>Preservación Digital:</strong> Conservar y proteger el patrimonio histórico de los videojuegos clásicos para las futuras generaciones.</li>
+                <li><strong>Acceso Facilitado:</strong> Ofrecer una plataforma intuitiva y segura que permita a los entusiastas disfrutar de estos títulos de manera legal.</li>
+                <li><strong>Comunidad Activa:</strong> Conectar a jugadores de diferentes generaciones en torno a la nostalgia y el disfrute de los clásicos.</li>
+            </ul>
+        </section>
+
+        <section class="seccion-profesional">
+            <h2>¿Por Qué Elegir Emuroms?</h2>
+            <ul>
+                <li>✓ Catálogo extenso de juegos clásicos verificados y de calidad</li>
+                <li>✓ Interfaz moderna y fácil de navegar</li>
+                <li>✓ Descarga rápida y segura de títulos</li>
+                <li>✓ Actualizaciones regulares con nuevos contenidos</li>
+                <li>✓ Experiencia libre de anuncios intrusivos</li>
+            </ul>
+        </section>
+
+        <section class="seccion-profesional">
+            <h2>Nuestro Equipo</h2>
+            <p>Emuroms es el resultado del trabajo dedicado y apasionado de un equipo de dos desarrolladores comprometidos con la preservación del patrimonio de los videojuegos:</p>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; margin-top: 20px;">
+                <div style="text-align: center; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 8px;">
+                    <h3 style="margin-top: 0;">Álvaro Fernández Marín</h3>
+                    <img src="imagenes/alvaro.jpg" alt="Alvaro" style="width:50%; max-width:200px; display:block; margin: 20px auto; border-radius: 8px;">
+                </div>
+                <div style="text-align: center; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 8px;">
+                    <h3 style="margin-top: 0;">Fernando One Piece Sanchez</h3>
+                    <img src="imagenes/fernando.jpg" alt="Fernando" style="width:50%; max-width:200px; display:block; margin: 20px auto; border-radius: 8px;">
+                </div>
+            </div>
+            <p style="margin-top: 20px; text-align: center; font-style: italic;">Juntos, llevamos la pasión por los videojuegos clásicos a una realidad funcional y accesible para todos.</p>
+        </section>
+        
+        <section class="seccion-profesional">
+            <h2>Recibe Notificaciones de Nuevos Juegos</h2>
+            <p>¿Quieres estar al día con los últimos juegos añadidos a nuestra colección? Suscríbete para recibir notificaciones por email.</p>
+            <div class="form-container">
+                <form action="#" method="post">
+                    <fieldset>
+                        <legend>Suscripción a Notificaciones</legend>
+                        <p>
+                            <label for="email">Correo Electrónico:</label>
+                            <input type="email" id="email" name="email" class="correo" required placeholder="tu@email.com">
+                        </p>
+                        <p>
+                            <label for="consola">Consola Preferida:</label>
+                            <select id="consola" name="consola" required>
+                                <option value="">Selecciona una consola</option>
+                                <option value="nes">NES</option>
+                                <option value="snes">SNES</option>
+                                <option value="gba">Game Boy Advance</option>
+                                <option value="ds">Nintendo DS</option>
+                                <option value="n64">Nintendo 64</option>
+                                <option value="ps1">PlayStation 1</option>
+                                <option value="ps2">PlayStation 2</option>
+                                <option value="psp">PSP</option>
+                                <option value="genesis">Sega Genesis</option>
+                                <option value="todas">Todas las consolas</option>
+                            </select>
+                        </p>
+                        <p>
+                            <input type="checkbox" id="acepto" name="acepto" required style="display: inline-block; margin-right: 10px;">
+                            <label for="acepto" style="display: inline-block;">Acepto recibir notificaciones por email sobre nuevos juegos</label>
+                        </p>
+                        <p>
+                            <button type="submit" class="btn">Suscribirme</button>
+                        </p>
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p> &copy;Emuroms</p>
+    </footer>
+</body>
+</html>

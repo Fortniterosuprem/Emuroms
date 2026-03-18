@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juegos - Inicio</title>
+    <link rel="icon" href="imagenes/image.png" type="image/x-icon">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <!-- Modal para ampliar imagen -->
+    <div id="modalJuego" class="modal-juego">
+        <div class="modal-contenido">
+            <span class="cerrar-modal">&times;</span>
+            <div class="modal-grid">
+                <div class="modal-izquierda">
+                    <video id="videoModal" autoplay muted loop playsinline preload="metadata">
+                        <source src="" type="video/mp4">
+                        Tu navegador no soporta el elemento de video.
+                    </video>
+                    <div class="galeria-imagenes" id="galeriaImagenes">
+                        <!-- Las imágenes se cargarán aquí -->
+                    </div>
+                </div>
+                <div class="modal-derecha">
+                    <h2 id="nombreJuego"></h2>
+                    <p id="descripcionJuego"></p>
+                    <a id="enlaceDescarga" href="#" target="_blank" class="btn-descargar">Descargar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <header>
+        <div class="navegacion">
+            <a class="inicio" href="index.html"><img src="imagenes/image.png" alt="icono" width="27px"></a>
+            <a href="index.html">Inicio</a>
+            <a href="inicio.html">Consolas</a>
+            <a href="Mosaico.html">Juegos</a>
+            <a href="tutoriales.html">Tutoriales</a>
+        </div>
+        <div class="formulario">
+            <a href="Acerca_De.html">Acerca de</a>
+        </div>
+    </header> 
+    <main class="fondo-medio">
+        <div class="image-grid">
+            <a href="https://www.mediafire.com/file/ff38t29ref5ewiy/NES.zip/file"><img src="imagenes/NES.jpg" alt="Emulador" style="width: 474px; height: 276px;"></a>
+
+            <a href="https://www.mediafire.com/file/y7uk0p1p7ayfxmg/Castlevania.zip/file" target="_blank"><img src="imagenes/juegos/nex/castlevania.jpg" alt="castlevania" style="width: 474px; height: 276px;"></a>
+            <a href="https://www.mediafire.com/file/xr7rmdmtuqm98nm/Donkey_Kong.zip/file" target="_blank"><img src="imagenes/juegos/nex/DonkeyKong_image1600w.jpg" alt="DonkeyKong" style="width: 474px; height: 276px;"></a>
+            <a href="https://www.mediafire.com/file/0wp7abhplf58iek/Excitebike.zip/file" target="_blank"><img src="imagenes/juegos/nex/Excitebike_image1600w.jpg" alt="Excitebike" style="width: 474px; height: 276px;"></a>
+            <a href="https://www.mediafire.com/file/rmgl8cmptox42pt/Final_Fantasy.zip/file" target="_blank"><img src="imagenes/juegos/nex/Final_Fantasy.webp" alt="Final Fantasy" style="width: 474px; height: 276px;"></a>
+            <a href="https://www.mediafire.com/file/fhcfssxd19gq2f8/Kirby%2527s_Adventure.zip/file" target="_blank"><img src="imagenes/juegos/nex/KirbysAdventure.jpg" alt="Kirby's Adventure" style="width: 474px; height: 276px;"></a>
+            <a href="https://www.mediafire.com/file/y6u08yfxr7slsvz/Mega_Man.zip/file" target="_blank"><img src="imagenes/juegos/nex/Mega_man.jpg" alt="Mega Man" style="width: 474px; height: 276px;"></a>
+            <a href="https://www.mediafire.com/file/zuikp39evzig83p/Metroid.zip/file" target="_blank"><img src="imagenes/juegos/nex/Metroid_image1600w.jpg" alt="Metroid" style="width: 474px; height: 276px;"></a>
+            <a href="https://www.mediafire.com/file/n9288eymrpucirx/Pac-Man.zip/file" target="_blank"><img src="imagenes/juegos/nex/pacman.webp" alt="Pacman" style="width: 474px; height: 276px;"></a>
+            <a href="https://www.mediafire.com/file/eqb7c914ttwrtr2/Super_Mario_Bros_2.zip/file" target="_blank"><img src="imagenes/juegos/nex/Super Mario Bros The Lost Levels.jpg" alt="Super Mario Bros The Lost Levels" style="width: 474px; height: 276px;"></a>
+            <a href="https://www.mediafire.com/file/hsj370mgu6h4k1z/Super_Mario_Bros.zip/file" target="_blank"><img src="imagenes/juegos/nex/SuperMarioBros.jpg" alt="Super Mario Bros" style="width: 474px; height: 276px;"></a>
+            <a href="https://www.mediafire.com/file/zn7mkrsvv82jx5c/Tetris.zip/file" target="_blank"><img src="imagenes/juegos/nex/tetris.png" alt="Tetris" style="width: 474px; height: 276px;"></a>
+            <a href="https://www.mediafire.com/file/t5ppwfpt0cewnc9/Legend_of_Zelda.zip/file" target="_blank"><img src="imagenes/juegos/nex/the legenad of zelda.jpg" alt="The Legend of Zelda" style="width: 474px; height: 276px;"></a>
+        </div>
+    </main>
+    <footer>
+        <p> &copy;Emuroms</p>
+    </footer>
+
+    <script src="script-modal.js"></script>
+</body>
+</html>

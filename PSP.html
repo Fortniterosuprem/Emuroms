@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juegos - Inicio</title>
+    <link rel="icon" href="imagenes/image.png" type="image/x-icon">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <!-- Modal para ampliar imagen -->
+    <div id="modalJuego" class="modal-juego">
+        <div class="modal-contenido">
+            <span class="cerrar-modal">&times;</span>
+            <div class="modal-grid">
+                <div class="modal-izquierda">
+                    <video id="videoModal" autoplay muted loop playsinline preload="metadata">
+                        <source src="" type="video/mp4">
+                        Tu navegador no soporta el elemento de video.
+                    </video>
+                    <div class="galeria-imagenes" id="galeriaImagenes">
+                        <!-- Las imágenes se cargarán aquí -->
+                    </div>
+                </div>
+                <div class="modal-derecha">
+                    <h2 id="nombreJuego"></h2>
+                    <p id="descripcionJuego"></p>
+                    <a id="enlaceDescarga" href="#" target="_blank" class="btn-descargar">Descargar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <header>
+        <div class="navegacion">
+            <a class="inicio" href="index.html"><img src="imagenes/image.png" alt="icono" width="27px"></a>
+            <a href="index.html">Inicio</a>
+            <a href="inicio.html">Consolas</a>
+            <a href="Mosaico.html">Juegos</a>
+            <a href="tutoriales.html">Tutoriales</a>
+        </div>
+        <div class="formulario">
+            <a href="Acerca_De.html">Acerca de</a>
+        </div>
+    </header> 
+    <main class="fondo-medio">
+        <div class="image-grid">
+            <a href="https://www.mediafire.com/file/10hw8frw1tu1bb6/PSP.zip/file"><img src="imagenes/PSP.jpg" alt="Emulador" style="width: 474px; height: 276px;"></a>
+
+            <a href="" target="_blank"><img src="imagenes/juegos/psp/56_mgspw_gamemain.jpg" alt="56 mgspw gamemain" style="width: 474px; height: 276px;"></a>
+            <a href="" target="_blank"><img src="imagenes/juegos/psp/dragon ball z shin budokai tenkaichi 2.jpg" alt="Dragon Ball Z Shin Budokai Tenkaichi 2" style="width: 474px; height: 276px;"></a>
+            <a href="" target="_blank"><img src="imagenes/juegos/psp/dragon ball z shin budokai tenkaichi 2.png" alt="Dragon Ball Z Shin Budokai Tenkaichi 2" style="width: 474px; height: 276px;"></a>
+            <a href="" target="_blank"><img src="imagenes/juegos/psp/god of war chains of olympus.jpg" alt="god of war chains of olympus" style="width: 474px; height: 276px;"></a>
+            <a href="" target="_blank"><img src="imagenes/juegos/psp/god of war ghost of sparta .png" alt="god of war ghost of sparta" style="width: 474px; height: 276px;"></a>
+            <a href="" target="_blank"><img src="imagenes/juegos/psp/gran turismo.webp" alt="gran turismo" style="width: 474px; height: 276px;"></a>
+            <a href="" target="_blank"><img src="imagenes/juegos/psp/Grand_Theft_Auto_Liberty_City_Stories.webp" alt="Grand Theft Auto Liberty City Stories" style="width: 474px; height: 276px;"></a>
+            <a href="" target="_blank"><img src="imagenes/juegos/psp/little bing planet.jpg" alt="little bing planet" style="width: 474px; height: 276px;"></a>
+            <a href="" target="_blank"><img src="imagenes/juegos/psp/Portadas-KH-Birth-By-Sleep.jpg" alt="Portadas KH Birth By Sleep" style="width: 474px; height: 276px;"></a>
+            <a href="" target="_blank"><img src="imagenes/juegos/psp/silent hill origins .jpg" alt="silent hill origins" style="width: 474px; height: 276px;"></a>
+            <a href="" target="_blank"><img src="imagenes/juegos/psp/teken6.jpg" alt="teken6" style="width: 474px; height: 276px;"></a>
+            <a href="" target="_blank"><img src="imagenes/juegos/psp/tomb-raider-anniversary-pc-juego-steam-cover.jpg" alt="tomb raider anniversary" style="width: 474px; height: 276px;"></a>
+        </div>
+    </main>
+    <footer>
+        <p> &copy;Emuroms</p>
+    </footer>
+
+    <script src="script-modal.js"></script>
+</body>
+</html>
